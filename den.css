@@ -1,0 +1,72 @@
+*{ 
+	padding: 0;
+	margin: 0;
+	border:0;
+	list-style: none;
+  }
+
+ a{ 	float:left;
+ 		padding: 17px;
+ 		text-decoration: none;
+ font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+ ul.menu{
+ 	
+ 	background: #3498db;
+ 	height: 70px;
+ 			}
+ ul.menu li {
+ 	margin-left: 0px;
+ 	float:left;
+ 	height:70px;
+ 	 }
+ul.menu li a {
+	
+	display: block;
+	font-size:18px;
+	color:#fff;
+	padding: 0 25px;
+	line-height: 70px;
+}
+ul.menu li a:hover{
+	background-color:#2ecc71;
+}
+body input {
+ margin-top: 20px;
+ margin-right: 25px;
+ height: 30px;
+ width: 200px;
+ float:right;
+color:black;
+border-radius: 10px;
+}
+body input:hover{background-color:grey;
+	display:block;
+	}
+@import 'https://fonts.googleapis.com/css?family=Rajdhani:700';
+body {
+  margin: 0;
+  background: #FF8C00;
+}
+@keyframes background {
+  from {
+    background-position: 0 0%;
+  }
+  to {
+    background-position: 0 -200px;
+  }
+}
+h1 {
+  color: #black;
+  text-align: center;
+  font-size: 120px;
+  font-family: 'Rajdhani', sans-serif;
+  background: -webkit-linear-gradient(transparent, transparent), url(http://html5book.ru/wp-content/uploads/2016/08/bubbles.png) repeat;
+  background-size: 120px auto;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: background 10s infinite linear;
+}
+   
